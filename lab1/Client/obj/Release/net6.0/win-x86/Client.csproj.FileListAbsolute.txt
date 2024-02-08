@@ -1,0 +1,14 @@
+D:\UTM\III\PR\lab1\Client\bin\Release\net6.0\win-x86\Client.exe
+D:\UTM\III\PR\lab1\Client\bin\Release\net6.0\win-x86\Client.deps.json
+D:\UTM\III\PR\lab1\Client\bin\Release\net6.0\win-x86\Client.runtimeconfig.json
+D:\UTM\III\PR\lab1\Client\bin\Release\net6.0\win-x86\Client.dll
+D:\UTM\III\PR\lab1\Client\bin\Release\net6.0\win-x86\Client.pdb
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.AssemblyInfoInputs.cache
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.AssemblyInfo.cs
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.csproj.CoreCompileInputs.cache
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.dll
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\refint\Client.dll
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.pdb
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.genruntimeconfig.cache
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\ref\Client.dll

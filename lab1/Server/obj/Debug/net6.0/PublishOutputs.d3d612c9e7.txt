@@ -1,0 +1,5 @@
+D:\UTM\III\PR\lab1\Server\release\Server.exe
+D:\UTM\III\PR\lab1\Server\release\Server.dll
+D:\UTM\III\PR\lab1\Server\release\Server.deps.json
+D:\UTM\III\PR\lab1\Server\release\Server.runtimeconfig.json
+D:\UTM\III\PR\lab1\Server\release\Server.pdb

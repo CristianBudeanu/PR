@@ -1,0 +1,5 @@
+D:\UTM\III\PR\lab1\Client\release\Client.exe
+D:\UTM\III\PR\lab1\Client\release\Client.dll
+D:\UTM\III\PR\lab1\Client\release\Client.deps.json
+D:\UTM\III\PR\lab1\Client\release\Client.runtimeconfig.json
+D:\UTM\III\PR\lab1\Client\release\Client.pdb

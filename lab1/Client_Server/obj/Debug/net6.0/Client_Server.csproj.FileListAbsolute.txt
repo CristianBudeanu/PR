@@ -1,0 +1,14 @@
+D:\UTM\III\PR\lab1\Client_Server\bin\Debug\net6.0\Client_Server.exe
+D:\UTM\III\PR\lab1\Client_Server\bin\Debug\net6.0\Client_Server.deps.json
+D:\UTM\III\PR\lab1\Client_Server\bin\Debug\net6.0\Client_Server.runtimeconfig.json
+D:\UTM\III\PR\lab1\Client_Server\bin\Debug\net6.0\Client_Server.dll
+D:\UTM\III\PR\lab1\Client_Server\bin\Debug\net6.0\Client_Server.pdb
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.AssemblyInfoInputs.cache
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.AssemblyInfo.cs
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.csproj.CoreCompileInputs.cache
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.dll
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\refint\Client_Server.dll
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.pdb
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\Client_Server.genruntimeconfig.cache
+D:\UTM\III\PR\lab1\Client_Server\obj\Debug\net6.0\ref\Client_Server.dll
