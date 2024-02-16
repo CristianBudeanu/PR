@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fSQfJFSlNqZcv2mg9gL6+wJZt1nOCRLZVyiw1x1d8RKRQgaRonjRHh/gYvwPF7p102dFB1OBmKE7KNFQZGgtjA==",
+  "dgSpecHash": "/ZTbWhUjh72fh9o1zvatPHxb1vu6+Q5LkZojLKi75dxCCTo8I+4sj+cy449yoirHtHzZtivBneBaw7XAjOuR0g==",
   "success": true,
   "projectFilePath": "D:\\UTM\\III\\PR\\lab1\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\budea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\budea\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\budea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\budea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }

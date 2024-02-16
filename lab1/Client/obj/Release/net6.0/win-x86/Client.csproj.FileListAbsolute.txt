@@ -12,3 +12,4 @@ D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\refint\Client.dll
 D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.pdb
 D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.genruntimeconfig.cache
 D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\ref\Client.dll
+D:\UTM\III\PR\lab1\Client\obj\Release\net6.0\win-x86\Client.sourcelink.json

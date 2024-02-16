@@ -1,44 +1,62 @@
-﻿using System.Net.Sockets;
+﻿using System;
+using System.Net.Sockets;
 using System.Net;
 using System.Text;
-
-
+using System.Threading;
 
 class Program
 {
+     private static Socket client;
+     private static volatile bool receivingMessages = true;
+
      static void Main()
      {
-
           IPAddress serverIp = IPAddress.Parse("127.0.0.1");
           int serverPort = 9000;
 
-          using (Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
+          client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+          client.Connect(new IPEndPoint(serverIp, serverPort));
+          Console.WriteLine("Connected to the server");
+
+          // Start a separate thread to handle receiving messages
+          Thread receiveThread = new Thread(ReceiveMessages);
+          receiveThread.Start();
+
+          while (true)
           {
-               client.Connect(new IPEndPoint(serverIp, serverPort));
-               Console.WriteLine("Connected to the server");
+               Console.WriteLine("Enter text (type 'exit' to close):");
+               string text = Console.ReadLine();
 
-               while (true)
+               if (text.ToLower() == "exit")
                {
-                    Console.WriteLine("Enter text:");
-                    string text = Console.ReadLine();
+                    receivingMessages = false; // Set the flag to stop receiving messages
+                    break; // Exit the loop and close the application
+               }
 
-                    if (string.IsNullOrEmpty(text))
-                    {
-                         text = "CLIENT SENT NULL DATA";
-                    }
+               byte[] byteData = Encoding.UTF8.GetBytes(text);
+               client.Send(byteData);
+          }
 
-                    byte[] byteData = Encoding.UTF8.GetBytes(text);
-                    client.Send(byteData);
+          // Properly close the socket
+          client.Close();
+     }
 
-                    string receivedText = "";
-                    do
-                    {
-                         byte[] receivedBuffer = new byte[1024];
-                         int bytesRead = client.Receive(receivedBuffer);
-                         receivedText += Encoding.UTF8.GetString(receivedBuffer, 0, bytesRead);
-                    } while (client.Available > 0);
-
+     static void ReceiveMessages()
+     {
+          while (receivingMessages)
+          {
+               try
+               {
+                    byte[] receivedBuffer = new byte[1024];
+                    int bytesRead = client.Receive(receivedBuffer);
+                    string receivedText = Encoding.UTF8.GetString(receivedBuffer, 0, bytesRead);
                     Console.WriteLine($"Server: {receivedText}\n");
+               }
+               catch (Exception ex)
+               {
+                    if (receivingMessages)
+                         Console.WriteLine($"Error receiving message: {ex.Message}");
+                    break;
                }
           }
      }
