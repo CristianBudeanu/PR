@@ -24,7 +24,7 @@ class Program
 
           while (true)
           {
-               Console.WriteLine("Enter text (type 'exit' to close):");
+               Console.WriteLine("Enter text :");
                string text = Console.ReadLine();
 
                if (text.ToLower() == "exit")
