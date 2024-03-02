@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gA4kEpnvTbtSUpjRidi5XnXRnKT2nOilPHmLLLnNTKDgt7drr/7KsYZSjV8fIpZkKdTwucn9ujgkNQXP1gdNMg==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\OOP\\UDPClient\\UDPClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\budea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
