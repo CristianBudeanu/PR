@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\III\\PR\\lab3\\LDNS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C031B4A6-C3F4-487E-995D-52FDFD649C96}|LDNS.csproj|d:\\university\\iii\\pr\\lab3\\ldns\\dnsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C031B4A6-C3F4-487E-995D-52FDFD649C96}|LDNS.csproj|solutionrelative:dnsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C031B4A6-C3F4-487E-995D-52FDFD649C96}|LDNS.csproj|d:\\university\\iii\\pr\\lab3\\ldns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C031B4A6-C3F4-487E-995D-52FDFD649C96}|LDNS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DnsServices.cs",
+              "DocumentMoniker": "D:\\University\\III\\PR\\lab3\\LDNS\\DnsServices.cs",
+              "RelativeDocumentMoniker": "DnsServices.cs",
+              "ToolTip": "D:\\University\\III\\PR\\lab3\\LDNS\\DnsServices.cs",
+              "RelativeToolTip": "DnsServices.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAQwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:25:39.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\III\\PR\\lab3\\LDNS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\University\\III\\PR\\lab3\\LDNS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:15:04.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

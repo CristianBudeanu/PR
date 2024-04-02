@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDNS", "LDNS.csproj", "{C031B4A6-C3F4-487E-995D-52FDFD649C96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C031B4A6-C3F4-487E-995D-52FDFD649C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C031B4A6-C3F4-487E-995D-52FDFD649C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C031B4A6-C3F4-487E-995D-52FDFD649C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C031B4A6-C3F4-487E-995D-52FDFD649C96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB809ED-F53F-4A4C-956C-D443B9C631D1}
+	EndGlobalSection
+EndGlobal
