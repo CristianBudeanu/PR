@@ -73,25 +73,20 @@ namespace LDNS
                return "Nu s-a putut schimba serverul DNS. Verificați disponibilitatea serverului.";
           }
 
-          private static bool CheckDNS(IPAddress dnsServer)
+          private static bool IsDnsServer(IPAddress ipAddress)
           {
                try
                {
-                    using (var ping = new Ping())
-                    {
-                         var reply = ping.Send(dnsServer);
-                         if (reply.Status == IPStatus.Success)
-                         {
-                              return true;
-                         }
-                    }
+                    // Query a known domain (e.g., "example.com") against the DNS server
+                    IPAddress[] resolvedAddresses = Dns.GetHostAddresses("dns.google", ipAddress.ToString());
+
+                    // If we received a response and it's not empty, assume it's a DNS server
+                    return resolvedAddresses != null && resolvedAddresses.Length > 0;
                }
-               catch (PingException)
+               catch (Exception)
                {
                     return false;
                }
-
-               return false;
           }
 
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LDNS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46b136da2c260c532155db766b32544eb3a5f915")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6c59a41da6344eb0ea8429b2a0b03bf3da88991")]
 [assembly: System.Reflection.AssemblyProductAttribute("LDNS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LDNS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
